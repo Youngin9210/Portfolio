@@ -55,6 +55,7 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 0 20px;
+    min-height: calc(100vh - 58px);
 }
 
 .container > article {
