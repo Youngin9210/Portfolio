@@ -57,16 +57,19 @@ h1 {
     padding: 0 20px;
 }
 
-.container article {
+.container > article {
     display: flex;
     margin-top: 20px;
+    width: 100%;
 }
 
-.container article section {
+/* About Me */
+
+.about-me-container {
     display: flex;
 }
 
-.main-header {
+.about-me-header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -78,12 +81,6 @@ h1 {
     font-size: 20px;
 }
 
-/* About Me */
-
-.about-me-container {
-    display: flex;
-}
-
 .about-me{
     display: flex;
     margin-left: auto;
@@ -93,6 +90,7 @@ h1 {
 .about-me-img {
     display: flex;
     align-items: center;
+    height: 75%;
 }
 
 .about-me-text {
@@ -104,3 +102,31 @@ h1 {
 }
 
 /* My Work */
+
+.my-work-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 50px;
+    padding-right: 35px;
+    border-right: 2px solid;
+    color: var(--red);
+    font-size: 20px;
+}
+
+.my-work-container {
+    display: flex;
+    width: 100%;
+}
+
+.my-work {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+
+.project1 {
+    display: flex;
+    margin-left: auto;
+}
+
