@@ -345,6 +345,12 @@ a {
         padding: 2%;
     }
 
+    .about-container,
+    .my-work-container {
+        width: 100%;
+        margin: 5%;
+    }
+
     .about-text h2,
     .my-work h2 {
         padding: 4%;
@@ -377,10 +383,6 @@ a {
     .my-work h2 {
         padding: 4%;
     }
-
-
-
-    
 }
 
 /* for tablets */
