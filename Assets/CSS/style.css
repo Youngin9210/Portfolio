@@ -50,14 +50,14 @@ nav ul {
 
 nav ul li a {
     margin: 30px;
-    font-family: myriad pro regular; /* Get new font */
+    font-family: 'Nunito', sans-serif;
     color: #F2FDFF;
     font-size: 15px;
     font-weight: 700;
 }
 
 .logo {
-    font-family: RoadTest; /* Get new font */
+    font-family: 'Sriracha', cursive;
     color: #F2FDFF;
     font-size: 22px;
 }
@@ -92,7 +92,7 @@ nav ul li a {
 
 .about-text h2 {
     color: var(--font-color);
-    font-family: myriad pro;
+    font-family: 'Sriracha', cursive;
     font-weight: bold;
     font-size: 23px;
     line-height: 0px;
@@ -100,6 +100,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     border-bottom: 2px solid;
+    margin-bottom: 2%;
 }
 
 .about-text p {
@@ -132,15 +133,17 @@ nav ul li a {
     justify-content: space-evenly;
 }
 
-.my-work h2 {
-    margin: 0 auto 2% auto;
-    display: flex;
-    justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  /* Get new font */
-    font-weight: bold;
+.my-work h2{
     color: var(--font-color);
+    font-family: 'Sriracha', cursive;
+    font-weight: bold;
     font-size: 23px;
     line-height: 0px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid;
+    margin-bottom: 2%;
 }
 
 h3 {
@@ -163,6 +166,7 @@ h3 {
     justify-content:center;
     align-items: flex-end;
     flex-wrap: wrap-reverse;
+    padding-top: 1%;
 }
 
 .project1-img {
@@ -243,11 +247,44 @@ h3 {
 }
 
 .contact-me h2 {
-    display: flex;
-    justify-content: center;
-    margin: 2%;
-    font-size: 23px;
     color: var(--font-color);
+    font-family: 'Sriracha', cursive;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+    padding: 1%;
+    border-bottom: 2px solid;
+    margin: 2% auto;
 }
 
 
+
+/* for mobile */
+@media screen (min-width: 480px){
+
+}
+
+/* for small tablets */
+@media screen and (min-width: 576px) {
+
+}
+
+/* for tablets */
+@media screen and (min-width: 768px) {
+
+}
+
+/* for small laptops */
+@media screen and (min-width: 992px) {
+
+}
+
+/* for desktop */
+@media screen and (min-width: 1200px) {
+
+}
+
+/* for large desktop */
+@media screen and (min-width: 1400px) {
+
+}
