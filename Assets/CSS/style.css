@@ -52,7 +52,7 @@ nav ul li a {
     margin: 30px;
     font-family: 'Nunito', sans-serif;
     color: #F2FDFF;
-    font-size: 15px;
+    font-size: 0.9375em;
     font-weight: 700;
 }
 
@@ -94,7 +94,7 @@ nav ul li a {
     color: var(--font-color);
     font-family: 'Sriracha', cursive;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 1.4375em;
     line-height: 0px;
     padding: 2%;
     display: flex;
@@ -105,7 +105,7 @@ nav ul li a {
 
 .about-text p {
     color: var(--font-color);
-    font-size: 14px;
+    font-size: 0.875em;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     line-height: 1.2rem;
@@ -137,7 +137,7 @@ nav ul li a {
     color: var(--font-color);
     font-family: 'Sriracha', cursive;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 1.4375em;
     line-height: 0px;
     padding: 2%;
     display: flex;
@@ -250,7 +250,7 @@ h3 {
     color: var(--font-color);
     font-family: 'Sriracha', cursive;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 1.4375em;
     line-height: 0px;
     padding: 1%;
     border-bottom: 2px solid;
