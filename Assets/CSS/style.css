@@ -26,7 +26,7 @@ a:hover {
 
 .nav-container {
     width: 100%;
-    height: 75vh;
+    height: 100vh;
     background-image: url(../Images/mountains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,7 +38,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 10.050251256281408vh;
     background-color: #272F3C;
     box-shadow: 2px 2px 12 px rgba(0, 0, 0, 0.2);
     padding: 0px 5%;
@@ -68,7 +68,7 @@ nav ul li a {
 /* About Me */
 
 .about-container {
-    width: 75%;
+    width: 80%;
     height: auto;
     background-color: var(--container-background);
     border-radius: 20px;
@@ -116,21 +116,19 @@ nav ul li a {
 /* My Work */
 
 .my-work-container {
-    width: 75%;
+    width: 80%;
     height: auto;
     margin: 2% 2% 2% auto;
     background-color: var(--container-background);
     border-radius: 20px;
-    display: flex;
-    padding: 2%;
-    justify-content: space-evenly;
 }
 
 .my-work {
-    width: 59.1715976331361%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: auto;
 }
 
 .my-work h2{
@@ -140,25 +138,17 @@ nav ul li a {
     font-size: 1.4375em;
     line-height: 0px;
     padding: 2%;
-    display: flex;
-    justify-content: center;
     border-bottom: 2px solid;
     margin-bottom: 2%;
 }
 
-h3 {
+/* h3 {
     color: var(--font-color);
     margin: -4.5% 88.75% 0 auto;
     position: relative;
     background-color: var(--background);
     padding: 1%;
-}
-
-.my-work .project1 a {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
+} */
 
 .project1 {
     width: 100%;
@@ -167,6 +157,14 @@ h3 {
     align-items: flex-end;
     flex-wrap: wrap-reverse;
     padding-top: 1%;
+}
+
+.project1 a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    position: relative;
 }
 
 .project1-img {
@@ -178,23 +176,35 @@ h3 {
 .project3,
 .project4,
 .project5 {
-    width: 46.875%;
+    width: 50%;
     display: flex;
-    justify-content:center;
     align-items: flex-end;
     flex-wrap: wrap-reverse;
     margin: 2% 0;
     filter: brightness(0.5);
 }
 
-.project2,
+/* .project2,
 .project4 {
-    margin-right: 3.125%;
-}
+    justify-content: flex-start;
+} */
 
 .project3,
 .project5 {
-    margin-left: 3.125%;
+    justify-content: flex-end;
+}
+
+.project3 div,
+.project5 div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project2 div,
+.project3 div,
+.project4 div,
+.project5 div {
+    width: 90%
 }
 
 .my-work .project2 a,
@@ -202,22 +212,82 @@ h3 {
 .my-work .project4 a,
 .my-work .project5 a {
     display: flex;
-    justify-content: center;
     width: 100%;
+    position: relative;
 }
 
-.project2 h3,
-.project3 h3,
-.project4 h3,
-.project5 h3 {
+.project2 a,
+.project4 a {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.project3 a,
+.project5 a {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* .project2 h3,
+.project4 h3 {
     margin: -7.25% 78.75% 0 auto;
 }
 
-.my-work .project1:hover h3,
-.my-work .project2:hover h3,
-.my-work .project3:hover h3,
-.my-work .project4:hover h3,
-.my-work .project5:hover h3 {
+.project3 h3,
+.project5 h3 {
+    margin: -7.25% 75.75% 0 auto;
+} */
+
+.my-work img {
+    width: 100%;
+}
+
+.project1 a::before {
+    content: 'Horiseon';
+    color: var(--font-color);
+    position: absolute;
+    background-color: var(--background);
+    padding: 1%;
+}
+
+.project2 a::before {
+    content: 'Horiseon';
+    color: var(--font-color);
+    position: absolute;
+    background-color: var(--background);
+    padding: 1%;
+}
+
+.project3 a::before {
+    content: 'Horiseon';
+    color: var(--font-color);
+    position: absolute;
+    background-color: var(--background);
+    padding: 1%;
+}
+
+.project4 a::before {
+    content: 'Horiseon';
+    color: var(--font-color);
+    position: absolute;
+    background-color: var(--background);
+    padding: 1%;
+}
+
+.project5 a::before {
+    content: 'Horiseon';
+    color: var(--font-color);
+    position: absolute;
+    background-color: var(--background);
+    padding: 1%;
+}
+
+
+.project1 a:hover::before,
+.project2 a:hover::before,
+.project3 a:hover::before,
+.project4 a:hover::before,
+.project5 a:hover::before {
     color: var(--font-hover);
 }
 
@@ -260,7 +330,7 @@ h3 {
 
 
 /* for mobile */
-@media screen (min-width: 480px){
+@media screen (min-width: 480px) {
 
 }
 
