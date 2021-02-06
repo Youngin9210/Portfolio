@@ -1,3 +1,5 @@
+
+/* Delcaring global variables to be used in css */
 :root {
     --font-color: #F2FDFF;
     --font-hover: #ca9388;
@@ -6,6 +8,7 @@
     --before-background: rgba(51, 53, 65, 0.95);
 }
 
+/* setting background color with a margin and padding set to zero */
 body {
     background-color: var(--background);
     margin: 0px;
@@ -348,7 +351,7 @@ a {
     .about-container,
     .my-work-container {
         width: 100%;
-        margin: 5%;
+        margin: 5% 0;
     }
 
     .about-text h2,
