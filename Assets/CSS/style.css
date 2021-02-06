@@ -121,12 +121,14 @@ nav ul li a {
     border-radius: 20px;
     display: flex;
     padding: 2%;
+    justify-content: space-evenly;
 }
 
 .my-work {
-    width: 100%;
+    width: 800px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .my-work h2 {
@@ -141,16 +143,17 @@ nav ul li a {
 }
 
 h3 {
-    display: flex;
-    width: 100%;
-    justify-content: center;
     color: var(--font-color);
-    margin: 1% 0;
+    margin: -4.5% 88.75% 0 auto;
+    position: relative;
+    background-color: var(--background);
+    padding: 1%;
 }
 
-.my-work a {
+.my-work .project1 a {
     display: flex;
     justify-content: center;
+    width: 800px;
 }
 
 .project1 {
@@ -162,6 +165,44 @@ h3 {
 }
 
 .project1-img {
-    width: 60%;
-    height: 25vh;
+    width: 100%;
+    height: 300px;
+}
+
+.project2,
+.project3,
+.project4,
+.project5 {
+    width: 375px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+    margin: 2% 0;
+}
+
+.project2,
+.project4 {
+    margin-right: 25px;
+}
+
+.project3,
+.project5 {
+    margin-left: 25px;
+}
+
+.my-work .project2 a,
+.my-work .project3 a,
+.my-work .project4 a,
+.my-work .project5 a {
+    display: flex;
+    justify-content: center;
+    width: 399px;
+}
+
+.project2 h3,
+.project3 h3,
+.project4 h3,
+.project5 h3 {
+    margin: -7.25% 78.75% 0 auto;
 }
