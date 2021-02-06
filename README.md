@@ -4,7 +4,7 @@ Week 2 Homework for OSU Bootcamp
 
 ## Description
 
-The following repository was made to showcase my portfolio.  My portfolio includes an about me, my work section that displays projects that I have completed, and also includes contact information in the footer.
+The following repository was made to showcase my portfolio.  My portfolio includes an about me, a my work section that displays projects that I have completed so far, and also includes contact information in the footer.
 
 Check it out here https://github.com/Youngin9210/Portfolio
 

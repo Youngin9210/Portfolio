@@ -86,7 +86,7 @@ nav ul li a {
 }
 
 .about-container img {
-    width: 200px;
+    width: 15.128249737146662%;
     padding: 1% 0;
 }
 
@@ -127,7 +127,7 @@ nav ul li a {
 }
 
 .my-work {
-    width: 800px;
+    width: 59.1715976331361%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -157,7 +157,7 @@ h3 {
 .my-work .project1 a {
     display: flex;
     justify-content: center;
-    width: 800px;
+    width: 100%;
 }
 
 .project1 {
@@ -178,7 +178,7 @@ h3 {
 .project3,
 .project4,
 .project5 {
-    width: 375px;
+    width: 46.875%;
     display: flex;
     justify-content:center;
     align-items: flex-end;
@@ -189,12 +189,12 @@ h3 {
 
 .project2,
 .project4 {
-    margin-right: 25px;
+    margin-right: 3.125%;
 }
 
 .project3,
 .project5 {
-    margin-left: 25px;
+    margin-left: 3.125%;
 }
 
 .my-work .project2 a,
@@ -203,7 +203,7 @@ h3 {
 .my-work .project5 a {
     display: flex;
     justify-content: center;
-    width: 399px;
+    width: 100%;
 }
 
 .project2 h3,
