@@ -139,7 +139,7 @@ nav ul li a {
     line-height: 0px;
     padding: 2%;
     border-bottom: 2px solid;
-    margin-bottom: 2%;
+    margin: 2% 0;
 }
 
 /* h3 {
@@ -322,7 +322,7 @@ nav ul li a {
     font-weight: bold;
     font-size: 1.4375em;
     line-height: 0px;
-    padding: 1%;
+    padding: 2%;
     border-bottom: 2px solid;
     margin: 2% auto;
 }
@@ -330,28 +330,45 @@ nav ul li a {
 
 
 /* for mobile */
-@media screen (min-width: 480px) {
+@media screen and (min-width: 480px) {
+    nav {
+        flex-direction: column;
+        padding: 2% 0;
+    }
 
+    nav ul {
+        width: 100%;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
 }
 
 /* for small tablets */
 @media screen and (min-width: 576px) {
-
+    .about-text h2,
+    .my-work h2{
+        padding: 4%;
+    }
 }
 
 /* for tablets */
 @media screen and (min-width: 768px) {
-
+    .about-text h2,
+    .my-work h2{
+        padding: 3%;
+    }
 }
 
 /* for small laptops */
 @media screen and (min-width: 992px) {
-
+    
 }
 
 /* for desktop */
 @media screen and (min-width: 1200px) {
-
+    
 }
 
 /* for large desktop */
