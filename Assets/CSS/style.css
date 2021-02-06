@@ -2,7 +2,8 @@
     --font-color: #F2FDFF;
     --font-hover: #ca9388;
     --background: #272F3C;
-    --container-background: rgba(51, 53, 65, 0.75);
+    --container-background: rgba(40, 29, 30, 0.5);
+    --before-background: rgba(51, 53, 65, 0.95);
 }
 
 body {
@@ -147,14 +148,6 @@ a {
     margin: 2% 0;
 }
 
-/* h3 {
-    color: var(--font-color);
-    margin: -4.5% 88.75% 0 auto;
-    position: relative;
-    background-color: var(--background);
-    padding: 1%;
-} */
-
 .project1 {
     width: 100%;
     display: flex;
@@ -162,11 +155,12 @@ a {
     align-items: flex-end;
     flex-wrap: wrap-reverse;
     padding-top: 1%;
+    filter: brightness(0.5);
 }
 
 .project1 a {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-end;
     width: 100%;
     position: relative;
@@ -214,17 +208,16 @@ a {
     display: flex;
     width: 100%;
     position: relative;
+    justify-content: center;
 }
 
 .project2 a,
 .project4 a {
-    justify-content: flex-start;
     align-items: flex-end;
 }
 
 .project3 a,
 .project5 a {
-    justify-content: flex-end;
     align-items: flex-end;
 }
 
@@ -232,44 +225,38 @@ a {
     width: 100%;
 }
 
-.project1 a::before {
-    content: 'Horiseon';
+.project1 a::before,
+.project2 a::before,
+.project3 a::before,
+.project4 a::before, 
+.project5 a::before {
     color: var(--font-color);
     position: absolute;
-    background-color: var(--background);
+    background-color: var(--before-background);
     padding: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.project1 a::before {
+    content: 'Horiseon';
+    
 }
 
 .project2 a::before {
-    content: 'Horiseon';
-    color: var(--font-color);
-    position: absolute;
-    background-color: var(--background);
-    padding: 1%;
+    content: 'Project 2';
 }
 
 .project3 a::before {
-    content: 'Horiseon';
-    color: var(--font-color);
-    position: absolute;
-    background-color: var(--background);
-    padding: 1%;
+    content: 'Project 3';
 }
 
 .project4 a::before {
-    content: 'Horiseon';
-    color: var(--font-color);
-    position: absolute;
-    background-color: var(--background);
-    padding: 1%;
+    content: 'Project 4';
 }
 
 .project5 a::before {
-    content: 'Horiseon';
-    color: var(--font-color);
-    position: absolute;
-    background-color: var(--background);
-    padding: 1%;
+    content: 'Project 5';
 }
 
 
@@ -362,6 +349,26 @@ a {
     .my-work h2 {
         padding: 4%;
     }
+
+    .my-work {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project2,
+    .project3,
+    .project4,
+    .project5 {
+        justify-content: center;
+        width: 80%;
+    }
+    
+    .project2 div,
+    .project3 div,
+    .project4 div,
+    .project5 div {
+        width: 100%;
+    }
 } 
 
 /* for small tablets */
@@ -370,6 +377,9 @@ a {
     .my-work h2 {
         padding: 4%;
     }
+
+
+
     
 }
 
