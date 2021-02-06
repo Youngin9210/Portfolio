@@ -17,6 +17,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: var(--font-color);
 }
 
 a:hover {
@@ -25,7 +26,7 @@ a:hover {
 
 .nav-container {
     width: 100%;
-    height: 60vh;
+    height: 75vh;
     background-image: url(../Images/mountains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -179,6 +180,7 @@ h3 {
     align-items: flex-end;
     flex-wrap: wrap-reverse;
     margin: 2% 0;
+    filter: brightness(0.5);
 }
 
 .project2,
@@ -206,3 +208,46 @@ h3 {
 .project5 h3 {
     margin: -7.25% 78.75% 0 auto;
 }
+
+.my-work .project1:hover h3,
+.my-work .project2:hover h3,
+.my-work .project3:hover h3,
+.my-work .project4:hover h3,
+.my-work .project5:hover h3 {
+    color: var(--font-hover);
+}
+
+.my-work .project1:hover,
+.my-work .project2:hover,
+.my-work .project3:hover,
+.my-work .project4:hover,
+.my-work .project5:hover {
+    filter: none;
+}
+
+.footer-nav-container {
+    padding-bottom: 3%;
+}
+
+.contact-me {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact-me h2 {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    font-size: 23px;
+    color: var(--font-color);
+}
+
+
