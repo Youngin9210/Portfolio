@@ -8,30 +8,41 @@ The following repository was made to showcase my portfolio.  My portfolio includ
 
 Check it out here https://github.com/Youngin9210/Portfolio
 
-  ## Screenshot
+## Table of Contents
 
-  ![image](Assets/Images/portfolio-screenshot.png)
+* [Screenshots](#screenshots)
+* [Installation](#installation)
+* [Credits](#credits)
+* [License](#license)
+* [Badges](#badges)
 
-  ## Table of Contents
+## Screenshots
 
-  * [Installation](#installation)
-  * [Credits](#credits)
-  * [License](#license)
-  * [Badges](#badges)
+### Header Nav and Hero background image
 
-  ## Installation
+![image](Assets/Images/nav-hero.png)
 
-  Using the terminal, clone the repository to your local device using SSH or HTTPS.  Once cloned, open repository in a text editor to make changes.
+### About Me section
 
-  ## Credits
+![image](Assets/Images/about-me.png)
 
-  Kyle Young https://github.com/Youngin9210
+### My Work section and Footer Nav
 
-  ## License
+![image](Assets/Images/myWork-footer.png)
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/youngin9210/Portfolio">
+## Installation
 
-  ## Badges
+Using the terminal, clone the repository to your local device using SSH or HTTPS.  Once cloned, open repository in a text editor to make changes.
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/youngin9210/Portfolio">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/youngin9210/Portfolio">
+## Credits
+
+Kyle Young https://github.com/Youngin9210
+
+## License
+
+<img alt="GitHub" src="https://img.shields.io/github/license/youngin9210/Portfolio">
+
+## Badges
+
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/youngin9210/Portfolio">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/youngin9210/Portfolio">
