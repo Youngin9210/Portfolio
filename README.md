@@ -4,17 +4,17 @@ Week 2 Homework for OSU Bootcamp
 
 ## Description
 
-The following repository was made to showcase my portfolio.  My portfolio includes an about me, a my work section that displays projects that I have completed so far, and also includes contact information in the footer.
+The following repository was made to showcase my portfolio. My portfolio includes an about me, a my work section that displays projects that I have completed so far, and also includes contact information in the footer.
 
-Check it out here https://github.com/Youngin9210/Portfolio
+Check it out here https://youngin9210.github.io/Portfolio/
 
 ## Table of Contents
 
-* [Screenshots](#screenshots)
-* [Installation](#installation)
-* [Credits](#credits)
-* [License](#license)
-* [Badges](#badges)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
 
 ## Screenshots
 
@@ -32,7 +32,7 @@ Check it out here https://github.com/Youngin9210/Portfolio
 
 ## Installation
 
-Using the terminal, clone the repository to your local device using SSH or HTTPS.  Once cloned, open repository in a text editor to make changes.
+Using the terminal, clone the repository to your local device using SSH or HTTPS. Once cloned, open repository in a text editor to make changes.
 
 ## Credits
 
